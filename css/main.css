@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("//hello.myfonts.net/count/3063b1");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3171249, 2016-02-14T13:41:17-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Recta-Regular by Canada Type
+ * URL: http://www.myfonts.com/fonts/canadatype/recta/regular/
+ * Copyright: Copyright &#x00A9; 2011-2013 Canada Type. All rights reserved.
+ * Licensed pageviews: 1
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3171249
+ *
+ * © 2016 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'Recta-Regular';
+  src: url("webfonts/3063B1_0_0.eot");
+  src: url("webfonts/3063B1_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/3063B1_0_0.woff2") format("woff2"), url("webfonts/3063B1_0_0.woff") format("woff"), url("webfonts/3063B1_0_0.ttf") format("truetype"); }
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+body {
+  font-family: Recta-Regular, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: .05em;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.2em;
+  padding: 1.2em; }
+
+.intro {
+  margin-top: 20vh;
+  max-width: 645px;
+  margin-left: 215px; }
+
+.details {
+  margin-top: 2.4em; }
+
+.trusted-by {
+  margin-left: 215px;
+  max-width: 215px;
+  float: left; }
+
+.contact {
+  max-width: 430px;
+  float: left;
+  margin-left: 107.5px; }
+
+.list-title {
+  text-decoration: underline;
+  margin-bottom: 1.2em; }
+
+.coming-soon {
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: -34px;
+  -webkit-transform: rotate(-90deg) translateX(-50%);
+  -moz-transform: rotate(-90deg) translateX(-50%);
+  -o-transform: rotate(-90deg) translateX(-50%);
+  -ms-transform: rotate(-90deg) translateX(-50%);
+  transform: rotate(-90deg) translateX(-50%);
+  animation-name: scroller;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  vertical-align: middle;
+  line-height: 2em; }
+
+@keyframes scroller {
+  from {
+    top: 100%; }
+  to {
+    top: -180px; } }
+@media (max-width: 1015px) {
+  .intro, .trusted-by {
+    margin-left: 15%; } }
+@media (max-width: 810px) {
+  .intro, .trusted-by, .contact {
+    margin-left: 9%;
+    float: none; }
+
+  .coming-soon {
+    left: -50px; }
+
+  .contact {
+    margin-top: 2.4em; }
+
+  .intro {
+    max-width: 540px;
+    margin-top: 10%; } }
+@media (max-width: 500px) {
+  body {
+    font-size: 6vw; } }
+
+/*# sourceMappingURL=main.css.map */
